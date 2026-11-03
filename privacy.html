@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>隐私政策 - 极速cloud</title>
+  <meta name="description" content="极速cloud隐私政策页面，了解我们的IEPL音爆专线架构、服务准则与用户隐私安全承诺。">
+  <link rel="canonical" href="https://jscloud.autos/privacy.html">
+  <meta property="og:title" content="隐私政策 - 极速cloud">
+  <meta property="og:description" content="极速cloud隐私政策页面，了解我们的IEPL音爆专线架构、服务准则与用户隐私安全承诺。">
+  <meta property="og:url" content="https://jscloud.autos/privacy.html">
+  <meta property="og:type" content="website">
+  <style>
+:root {
+  --bg-main: #F8FAFC;
+  --bg-card: #FFFFFF;
+  --bg-dark: #0F172A;
+  --bg-dark-2: #1E293B;
+  --text-main: #0F172A;
+  --text-muted: #475569;
+  --accent-orange: #FF5500;
+  --accent-crimson: #E11D48;
+  --accent-gold: #F59E0B;
+  --border-light: #E2E8F0;
+  --shadow-lg: 0 20px 45px -12px rgba(15, 23, 42, 0.12);
+  --shadow-orange: 0 12px 30px -6px rgba(255, 85, 0, 0.32);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-family: "PingFang SC", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, sans-serif; background: var(--bg-main); color: var(--text-main); line-height: 1.68; }
+body { overflow-x: hidden; background-image: radial-gradient(circle at 88% 8%, rgba(255,85,0,0.08) 0%, transparent 42%), radial-gradient(circle at 12% 35%, rgba(225,29,72,0.06) 0%, transparent 38%); }
+a, a:visited { color: #D93800; text-decoration: underline; text-underline-offset: 3px; font-weight: 600; transition: color 0.2s ease, opacity 0.2s ease; }
+a:hover { color: var(--accent-crimson); }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+/* Header & Navigation */
+.site-header { position: sticky; top: 0; z-index: 100; background: rgba(248, 250, 252, 0.94); backdrop-filter: blur(12px); border-bottom: 2px solid var(--border-light); }
+.nav-wrap { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; gap: 16px; }
+.brand-link, .brand-link:visited { display: inline-flex; align-items: center; gap: 10px; font-size: 1.38rem; font-weight: 900; color: var(--text-main); text-decoration: none; letter-spacing: -0.02em; }
+.brand-badge { font-size: 0.72rem; background: linear-gradient(90deg, var(--accent-orange), var(--accent-crimson)); color: #fff; padding: 2px 8px; border-radius: 99px; font-weight: 700; text-transform: uppercase; }
+.main-nav { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 18px; }
+.main-nav a, .main-nav a:visited { color: var(--text-main); text-decoration: none; font-size: 0.96rem; font-weight: 700; padding: 6px 10px; border-radius: 8px; transition: all 0.2s; }
+.main-nav a:hover { color: var(--accent-orange); background: rgba(255, 85, 0, 0.08); }
+.nav-cta, .nav-cta:visited { background: linear-gradient(135deg, var(--accent-orange), var(--accent-crimson)); color: #FFFFFF !important; text-decoration: none !important; padding: 9px 18px; border-radius: 999px; font-size: 0.92rem; font-weight: 800; box-shadow: var(--shadow-orange); display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.nav-cta:hover { transform: translateY(-1px); opacity: 0.95; }
+
+/* Buttons */
+.btn-row { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; margin-top: 26px; }
+.btn-primary, .btn-primary:visited { display: inline-flex; align-items: center; gap: 9px; background: linear-gradient(135deg, var(--accent-orange) 0%, var(--accent-crimson) 100%); color: #FFFFFF !important; text-decoration: none !important; padding: 15px 30px; border-radius: 12px; font-size: 1.05rem; font-weight: 800; box-shadow: var(--shadow-orange); transition: transform 0.2s, box-shadow 0.2s; border: none; cursor: pointer; }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 16px 36px -6px rgba(225, 29, 72, 0.45); }
+.btn-secondary, .btn-secondary:visited { display: inline-flex; align-items: center; gap: 8px; background: var(--bg-dark); color: #FFFFFF !important; text-decoration: none !important; padding: 15px 26px; border-radius: 12px; font-size: 1.02rem; font-weight: 800; border: 2px solid var(--accent-gold); transition: transform 0.2s, background 0.2s; }
+.btn-secondary:hover { background: var(--bg-dark-2); transform: translateY(-2px); }
+
+/* Hero Section */
+.hero { padding: 58px 0 68px; position: relative; overflow: hidden; }
+.hero-grid { display: grid; grid-template-columns: 1.08fr 0.92fr; gap: 40px; align-items: center; }
+.sonic-tag { display: inline-flex; align-items: center; gap: 8px; background: rgba(255, 85, 0, 0.12); color: #C23B00; border: 1px solid rgba(255, 85, 0, 0.32); padding: 6px 14px; border-radius: 999px; font-size: 0.86rem; font-weight: 800; margin-bottom: 18px; }
+.hero h1 { font-size: clamp(2.1rem, 3.8vw, 3.25rem); line-height: 1.18; font-weight: 900; color: var(--bg-dark); letter-spacing: -0.025em; margin-bottom: 18px; }
+.hero h1 .hl { background: linear-gradient(90deg, var(--accent-orange), var(--accent-crimson)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.hero-lead { font-size: 1.1rem; color: var(--text-muted); margin-bottom: 20px; max-width: 580px; }
+.hero-metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 30px; padding-top: 24px; border-top: 1px solid var(--border-light); }
+.metric-box { background: var(--bg-card); padding: 14px 16px; border-radius: 12px; border-left: 4px solid var(--accent-orange); box-shadow: 0 4px 14px rgba(15,23,42,0.05); }
+.metric-val { font-size: 1.45rem; font-weight: 900; color: var(--bg-dark); }
+.metric-lbl { font-size: 0.84rem; color: var(--text-muted); font-weight: 600; }
+
+/* Animated SVG Stage */
+.sonic-stage { background: linear-gradient(150deg, #0F172A 0%, #1E293B 65%, #311022 100%); border-radius: 22px; padding: 22px; box-shadow: var(--shadow-lg); border: 2px solid rgba(255, 85, 0, 0.35); position: relative; overflow: hidden; }
+.sonic-stage-header { display: flex; justify-content: space-between; align-items: center; color: #F8FAFC; font-size: 0.84rem; font-weight: 700; margin-bottom: 10px; padding: 0 6px; }
+.mach-pill { background: linear-gradient(90deg, #FF5500, #F59E0B); color: #0F172A; padding: 3px 11px; border-radius: 99px; font-weight: 900; font-size: 0.78rem; }
+@keyframes pulseBoom { 0%, 100% { transform: scale(0.95); opacity: 0.75; } 50% { transform: scale(1.06); opacity: 1; } }
+@keyframes wingFloat { 0%, 100% { transform: translateY(0px) translateX(0px); } 50% { transform: translateY(-7px) translateX(5px); } }
+.wing-glider { animation: wingFloat 3.4s ease-in-out infinite; transform-origin: center; }
+.boom-ring { animation: pulseBoom 2.4s ease-in-out infinite; transform-origin: center; }
+
+/* Sections */
+.section { padding: 68px 0; }
+.section-alt { background: #F1F5F9; }
+.section-dark { background: var(--bg-dark); color: #F8FAFC; }
+.sec-head { text-align: center; max-width: 760px; margin: 0 auto 44px; }
+.sec-tag { display: inline-block; font-size: 0.82rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-orange); background: rgba(255,85,0,0.1); padding: 4px 12px; border-radius: 99px; margin-bottom: 10px; }
+.sec-head h2 { font-size: clamp(1.7rem, 2.8vw, 2.35rem); font-weight: 900; margin-bottom: 12px; letter-spacing: -0.02em; }
+.sec-head p { color: var(--text-muted); font-size: 1.02rem; }
+.section-dark .sec-head p { color: #94A3B8; }
+
+/* Feature Grid */
+.feat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.feat-card { background: var(--bg-card); border-radius: 16px; padding: 28px 24px; border: 1px solid var(--border-light); box-shadow: 0 8px 24px rgba(15,23,42,0.04); transition: transform 0.2s, border-color 0.2s; position: relative; overflow: hidden; }
+.feat-card::before { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, var(--accent-orange), var(--accent-crimson), var(--accent-gold)); }
+.feat-card:hover { transform: translateY(-4px); border-color: var(--accent-orange); }
+.feat-icon { width: 48px; height: 48px; border-radius: 12px; background: rgba(255,85,0,0.12); color: var(--accent-orange); display: flex; align-items: center; justify-content: center; margin-bottom: 16px; }
+.feat-card h3 { font-size: 1.2rem; font-weight: 800; margin-bottom: 10px; }
+.feat-card p { color: var(--text-muted); font-size: 0.95rem; }
+
+/* Interactive Sonic Tunnel Simulator */
+.sim-panel { background: var(--bg-card); border-radius: 20px; padding: 32px; border: 2px solid var(--border-light); box-shadow: var(--shadow-lg); }
+.sim-tabs { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 24px; }
+.sim-tab { padding: 11px 20px; border-radius: 10px; border: 2px solid var(--border-light); background: #F8FAFC; font-weight: 800; font-size: 0.95rem; cursor: pointer; color: var(--text-main); transition: all 0.2s; }
+.sim-tab.active { background: linear-gradient(135deg, var(--accent-orange), var(--accent-crimson)); color: #fff; border-color: transparent; box-shadow: var(--shadow-orange); }
+.sim-body { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 24px; align-items: center; background: #0F172A; color: #F8FAFC; padding: 26px; border-radius: 16px; }
+.sim-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+.sim-stat-box { background: rgba(255,255,255,0.06); padding: 14px; border-radius: 10px; border-left: 3px solid var(--accent-gold); }
+.sim-stat-box span { display: block; font-size: 0.8rem; color: #94A3B8; }
+.sim-stat-box strong { font-size: 1.25rem; color: #F8FAFC; }
+
+/* Comparison Table */
+.table-wrap { overflow-x: auto; background: var(--bg-card); border-radius: 16px; border: 1px solid var(--border-light); box-shadow: var(--shadow-lg); }
+.comp-table { width: 100%; border-collapse: collapse; min-width: 640px; }
+.comp-table th, .comp-table td { padding: 16px 20px; text-align: left; border-bottom: 1px solid var(--border-light); font-size: 0.95rem; }
+.comp-table th { background: var(--bg-dark); color: #FFFFFF; font-weight: 800; }
+.comp-table th.hl-col { background: linear-gradient(135deg, var(--accent-orange), var(--accent-crimson)); }
+.comp-table td.hl-col { background: rgba(255, 85, 0, 0.05); font-weight: 700; color: var(--bg-dark); }
+
+/* Pricing Grid */
+.price-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; align-items: stretch; }
+.price-card { background: var(--bg-card); color: var(--text-main); border-radius: 18px; padding: 32px 26px; border: 2px solid var(--border-light); display: flex; flex-direction: column; justify-content: space-between; position: relative; }
+.price-card.pop { border-color: var(--accent-orange); box-shadow: var(--shadow-orange); transform: translateY(-6px); }
+.pop-badge { position: absolute; top: -13px; right: 22px; background: linear-gradient(90deg, var(--accent-orange), var(--accent-crimson)); color: #fff; font-size: 0.78rem; font-weight: 800; padding: 4px 14px; border-radius: 99px; }
+.price-num { font-size: 2.3rem; font-weight: 900; color: var(--bg-dark); margin: 14px 0; }
+.price-num small { font-size: 0.92rem; color: var(--text-muted); font-weight: 600; }
+.price-list { list-style: none; margin: 18px 0 26px; display: flex; flex-direction: column; gap: 11px; }
+.price-list li { display: flex; align-items: center; gap: 8px; font-size: 0.94rem; }
+.price-list li svg { color: var(--accent-orange); flex-shrink: 0; }
+
+/* Articles Preview & Hub */
+.art-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+.art-card { background: var(--bg-card); border-radius: 15px; padding: 24px; border: 1px solid var(--border-light); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s, box-shadow 0.2s; }
+.art-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); border-color: var(--accent-orange); }
+.art-meta { font-size: 0.8rem; font-weight: 700; color: var(--accent-orange); margin-bottom: 8px; display: flex; justify-content: space-between; }
+.art-card h3 { font-size: 1.12rem; font-weight: 800; margin-bottom: 10px; line-height: 1.42; }
+.art-card h3 a, .art-card h3 a:visited { color: var(--bg-dark); text-decoration: none; }
+.art-card h3 a:hover { color: var(--accent-orange); }
+.art-card p { font-size: 0.91rem; color: var(--text-muted); margin-bottom: 16px; }
+
+/* FAQ Accordion */
+.faq-list { max-width: 860px; margin: 0 auto; display: flex; flex-direction: column; gap: 14px; }
+.faq-item { background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 14px; padding: 18px 22px; }
+.faq-item summary { font-weight: 800; font-size: 1.04rem; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+.faq-item summary::after { content: "+"; font-size: 1.35rem; color: var(--accent-orange); font-weight: 900; }
+.faq-item[open] summary::after { content: "−"; }
+.faq-item p { margin-top: 12px; color: var(--text-muted); font-size: 0.95rem; border-top: 1px solid var(--border-light); padding-top: 12px; }
+
+/* Article Detail Layout */
+.article-wrap { max-width: 860px; margin: 44px auto 70px; background: var(--bg-card); border-radius: 20px; padding: 44px; border: 1px solid var(--border-light); box-shadow: var(--shadow-lg); }
+.breadcrumb { font-size: 0.88rem; color: var(--text-muted); margin-bottom: 18px; }
+.article-wrap h1 { font-size: clamp(1.65rem, 2.8vw, 2.25rem); font-weight: 900; line-height: 1.3; margin-bottom: 14px; color: var(--bg-dark); }
+.art-byline { display: flex; flex-wrap: wrap; gap: 16px; font-size: 0.86rem; color: var(--text-muted); padding-bottom: 20px; margin-bottom: 26px; border-bottom: 2px solid var(--border-light); }
+.art-content h2 { font-size: 1.38rem; font-weight: 800; color: var(--bg-dark); margin: 28px 0 12px; padding-left: 12px; border-left: 4px solid var(--accent-orange); }
+.art-content h3 { font-size: 1.14rem; font-weight: 800; color: var(--bg-dark-2); margin: 20px 0 10px; }
+.art-content p { margin-bottom: 16px; font-size: 1.01rem; color: #1E293B; line-height: 1.8; }
+.cta-banner { background: linear-gradient(135deg, #0F172A 0%, #271123 100%); color: #fff; border-radius: 16px; padding: 28px; margin: 34px 0; border: 1px solid var(--accent-orange); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 18px; }
+
+/* Footer */
+.site-footer { background: var(--bg-dark); color: #CBD5E1; padding: 42px 0; border-top: 4px solid var(--accent-orange); }
+.footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; }
+.footer-links { display: flex; flex-wrap: wrap; gap: 22px; }
+.footer-links a, .footer-links a:visited { color: #F59E0B; text-decoration: none; font-weight: 700; font-size: 0.95rem; }
+.footer-links a:hover { color: #FF5500; text-decoration: underline; }
+
+/* Responsive - Rule 7: Mobile navigation MUST remain visible */
+@media (max-width: 920px) {
+  .hero-grid, .feat-grid, .price-grid, .art-grid, .sim-body { grid-template-columns: 1fr; }
+  .price-card.pop { transform: none; }
+}
+@media (max-width: 768px) {
+  .nav-wrap { flex-direction: column; align-items: flex-start; gap: 10px; }
+  .main-nav { width: 100%; display: flex !important; flex-wrap: wrap; gap: 6px 10px; padding-top: 6px; border-top: 1px solid var(--border-light); }
+  .main-nav a { font-size: 0.88rem; padding: 5px 8px; }
+  .hero { padding: 34px 0 46px; }
+  .hero-metrics { grid-template-columns: 1fr; }
+  .article-wrap { padding: 24px 18px; margin: 22px auto 46px; }
+}
+</style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="brand-link" aria-label="极速cloud首页">
+      <svg class="brand-logo" viewBox="0 0 44 44" width="38" height="38" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <defs>
+    <linearGradient id="sonicGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5500"/>
+      <stop offset="55%" stop-color="#E11D48"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="22" cy="22" rx="18" ry="10" transform="rotate(-24 22 22)" stroke="url(#sonicGrad)" stroke-width="2.4" stroke-dasharray="6 3"/>
+  <path d="M5 27C11 27 16 14 27 12C33 11 39 14 41 18C35 18 30 22 25 27C18 33 10 31 5 27Z" fill="url(#sonicGrad)"/>
+  <path d="M12 19L37 9L26 24L20 20L12 19Z" fill="#0F172A"/>
+  <circle cx="34" cy="12" r="2.5" fill="#F59E0B"/>
+</svg>
+      <span>极速cloud</span>
+      <span class="brand-badge">MACH 3.2</span>
+    </a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="index.html#features">音爆架构</a>
+      <a href="index.html#simulator">引擎模拟</a>
+      <a href="index.html#comparison">专线对比</a>
+      <a href="index.html#pricing">极速套餐</a>
+      <a href="supersonic-brief.html">极速情报局</a>
+      <a href="index.html#faq">常见问答</a>
+      <a href="https://ww012.twilightaff.com/#/?code=A56DH1Af" rel="nofollow" target="_blank" class="nav-cta">立即免费试用 <svg class="ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="13 6 19 12 13 18"/></svg></a>
+    </nav>
+  </div>
+</header>
+  <main class="container">
+    <div class="article-wrap">
+      <div class="breadcrumb"><a href="index.html">首页</a> / <span>隐私政策</span></div>
+      <h1>极速cloud 隐私政策</h1>
+      <div class="art-content">
+        
+<h2>1. 零日志（Zero-Log）核心隐私原则</h2>
+<p><strong>极速cloud</strong> 将用户的数字隐私视为生命线。我们的全部边缘接入节点与海外落地服务器均采用无盘内存态（RAM-Only）转发架构，<strong>绝不记录、不存储、不分析</strong>任何用户的源 IP 地址、DNS 查询历史、访问目标网址或传输载荷内容。</p>
+<h2>2. 最小化账户信息收集</h2>
+<p>在您注册与订阅过程中，系统仅收集维持账号运行所必需的最小化信息（如经过哈希脱敏的登录邮箱与套餐到期时间戳）。所有支付结算均通过符合 PCI-DSS 安全标准的第三方加密网关处理，本平台不留存任何银行卡或支付凭证详情。</p>
+<h2>3. 端到端现代加密通信</h2>
+<p>从您的终端客户端到 极速cloud 专线落地节点之间的数据流，全程采用 ChaCha20-Poly1305 或 AES-256-GCM 等现代 AEAD 认证加密算法配合 TLS 1.3 协议封装，有效抵御中间人嗅探与流量特征识别。</p>
+<h2>4. 用户权利与数据注销</h2>
+<p>您可随时在用户中心自主修改密码或申请彻底注销账户。账户注销后，与之关联的订阅元数据将在 24 小时内从数据库中永久清除。</p>
+
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <strong style="color:#FFFFFF;font-size:1.08rem;">极速cloud</strong>
+      <p style="font-size:0.85rem;color:#94A3B8;margin-top:4px;">© 2026 极速cloud 版权所有 · 突破带宽声障的全专线高速云加速网络</p>
+    </div>
+    <div class="footer-links">
+      <a href="sitemap.html">网站地图</a>
+      <a href="about.html">关于我们</a>
+      <a href="terms.html">服务条款</a>
+      <a href="privacy.html">隐私政策</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
