@@ -238,7 +238,7 @@ a:hover { color: var(--accent-crimson); }
 <h2>3. 对象存储CDN分流与并发连接池提速</h2>
 <p>当云端显卡完成扩散模型推理后，生成的无损高清大图通常会托管在Cloudflare R2、AWS S3或Google Cloud Storage等全球对象存储节点上。如果用户的分流规则未能将这些静态资源域名与主站API同步纳入高速通道，或者所选节点的单连接突发吞吐受限，加载一张20MB以上的超清纹理贴图就会耗时十余秒。通过启用支持HTTP/3（QUIC）多路复用的专线节点，可以大幅缩短多张预览图的并发拉取时间。</p>
 <h2>4. 云端ComfyUI与LoRA模型权重的极速同步</h2>
-<p>对于需要在云端容器内自定义工作流并频繁上传参考图（ControlNet输入）、下载数十GB Checkpoint底模与LoRA权重的进阶创作者而言，双向对称的高带宽传输能力尤为关键。在<a href="https://tizilab.net/" target="_blank">AIGC设计师高速网络工具推荐</a>收录的多项生产力实测中，采用企业级IEPL内网中转的专线不仅能保证WebSocket连续数小时零断连，还能将本地至云端工作区的素材上传速度提升4倍以上。</p>
+<p>对于需要在云端容器内自定义工作流并频繁上传参考图（ControlNet输入）、下载数十GB Checkpoint底模与LoRA权重的进阶创作者而言，双向对称的高带宽传输能力尤为关键。在AIGC设计师高速网络工具推荐收录的多项生产力实测中，采用企业级IEPL内网中转的专线不仅能保证WebSocket连续数小时零断连，还能将本地至云端工作区的素材上传速度提升4倍以上。</p>
 <h3>实战配置与日常运维优化建议</h3>
 <p>建议用户在日常使用中开启客户端内置的智能延迟测速与故障自动切换策略组，将核心生产力域名与超高清流媒体流量锁定在低延迟的IEPL内网专线节点上，从而获得全天候如一的丝滑响应。</p>
 <h2>5. 针对设计师工作站的精准域名分流策略</h2>
@@ -254,7 +254,7 @@ a:hover { color: var(--accent-crimson); }
         </div>
         <div style="display:flex;gap:12px;flex-wrap:wrap;">
           <a href="https://ww012.twilightaff.com/#/?code=A56DH1Af" rel="nofollow" target="_blank" class="btn-primary">立即免费试用 <svg class="ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="13 6 19 12 13 18"/></svg></a>
-          <a href="https://tizilab.net/paihang/" target="_blank" class="btn-secondary">2026最新梯子推荐</a>
+          
         </div>
       </div>
     </div>

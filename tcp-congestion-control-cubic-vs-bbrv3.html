@@ -238,7 +238,7 @@ a:hover { color: var(--accent-crimson); }
 <h2>3. BBR算法如何重塑带宽与延迟的平衡</h2>
 <p>为了解决基于丢包反馈的固有缺陷，工程界推出了基于传输模型的主动探测算法BBR（Bottleneck Bandwidth and Round-trip propagation time）。BBR不再盲目把随机丢包等同于链路满载，而是通过持续测量接收端的确认速率来估算瓶颈带宽上限，并周期性探测最小物理往返延迟。只要管道尚未填满，即使出现少量非拥塞性丢包，BBR依然会保持稳定的高发包速率，从而将跨国长链路的带宽利用率提升数倍之多。</p>
 <h2>4. BBRv3在多流公平性与队列控制上的进化</h2>
-<p>随着协议栈的持续演进，最新的BBRv3版本进一步修复了早期版本在高丢包环境下过度抢占带宽以及与CUBIC流量共存时的公平性问题。通过更精准的相位状态机切换与浅缓冲区适配，BBRv3能够在保持超高吞吐量的同时，将路由器排队延迟（Bufferbloat）压制在极低水平。在<a href="https://tizilab.net/" target="_blank">高吞吐跨国网络加速综合测评站</a>近期发布的专项对比测试中，搭载BBRv3内核调优的专线节点在1%模拟丢包率下，其有效下载速率依然达到了传统CUBIC节点的6.8倍以上。</p>
+<p>随着协议栈的持续演进，最新的BBRv3版本进一步修复了早期版本在高丢包环境下过度抢占带宽以及与CUBIC流量共存时的公平性问题。通过更精准的相位状态机切换与浅缓冲区适配，BBRv3能够在保持超高吞吐量的同时，将路由器排队延迟（Bufferbloat）压制在极低水平。在高吞吐跨国网络加速综合测评站近期发布的专项对比测试中，搭载BBRv3内核调优的专线节点在1%模拟丢包率下，其有效下载速率依然达到了传统CUBIC节点的6.8倍以上。</p>
 <h2>5. 结合动态窗口调优释放本地千兆宽带潜力</h2>
 <p>除了服务端的拥塞算法升级，操作系统层面的TCP读写缓冲区上限（rmem与wmem）同样制约着跨国传输表现。现代高速中转架构通常会在边缘接入节点与落地服务器之间建立经过深度内核参数调优的持久复用隧道，预先放大初始拥塞窗口（initcwnd），让小文件请求无需经历漫长的慢启动过程即可满速传输。</p>
 <h2>6. 普通用户如何验证并享受BBRv3加速红利</h2>
@@ -252,7 +252,7 @@ a:hover { color: var(--accent-crimson); }
         </div>
         <div style="display:flex;gap:12px;flex-wrap:wrap;">
           <a href="https://ww012.twilightaff.com/#/?code=A56DH1Af" rel="nofollow" target="_blank" class="btn-primary">立即免费试用 <svg class="ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="13 6 19 12 13 18"/></svg></a>
-          <a href="https://tizilab.net/paihang/" target="_blank" class="btn-secondary">2026最新梯子推荐</a>
+          
         </div>
       </div>
     </div>

@@ -230,7 +230,7 @@ a:hover { color: var(--accent-crimson); }
         <h1>苹果全家桶网络加速同步方案：利用iCloud实现Mac、iPhone与iPad规则无缝共享</h1>
         <div class="art-content">
           <h2>1. 多苹果设备用户的重复配置烦恼</h2>
-<p>对于同时拥有MacBook Pro、iPhone、iPad Pro乃至Apple TV的苹果生态深度用户来说，如果在每台设备上分别维护一套独立的网络分流配置，不仅每次新增自定义分流域名、修改节点策略组或更新订阅链接时都需要逐台手动操作，还经常因为某台设备规则版本滞后而导致特定应用无法正常联网。构建一套“一处修改、全端实时生效”的云端同步工作流，是提升日常数字生活效率的必经之路。</p>
+<p>对于同时拥有MacBook Pro、iPhone、iPad Pro乃至Apple TV的苹果生态深度用户来说，如果在每台设备上分别维护一套独立的网络分流配置，不仅每次新增自定义分流域名、修改节点策略组或更新账户信息时都需要逐台手动操作，还经常因为某台设备规则版本滞后而导致特定应用无法正常联网。构建一套“一处修改、全端实时生效”的云端同步工作流，是提升日常数字生活效率的必经之路。</p>
 <h2>2. 依托iCloud Drive构建统一配置中心</h2>
 <p>苹果原生的iCloud Drive文件同步机制为跨设备配置共享提供了天然的加密底座。当前苹果生态主流的现代网络接管工具均已原生支持将核心配置文件（Profile）、本地重写规则（Rewrite）以及自定义分流模块（Module/Rule-set）存储在iCloud云盘的专属目录下。当你在Mac端使用文本编辑器调整了一条域名分流规则并按下保存键后，iOS与iPadOS端会在数秒内通过后台静默推送完成增量更新。</p>
 <h3>关键传输性能核心指标拆解</h3>
@@ -238,7 +238,7 @@ a:hover { color: var(--accent-crimson); }
 <h2>3. 桌面端与移动端差异化参数的优雅解耦</h2>
 <p>虽然全平台共享同一份核心节点订阅与分流逻辑，但桌面端macOS与移动端iOS在系统网络栈特性上仍存在细微差异。例如Mac端常常需要开启增强模式（Enhanced Mode / TUN虚拟网卡）以接管终端命令行与Docker容器流量，而iPhone端则更关注蜂窝移动网络下的省电表现与按需连接（On-Demand）。通过模块化引入机制，我们可以将通用的节点池与分流列表抽离为公共云端文件，同时保留设备本地接口参数。</p>
 <h2>4. 标准化规则集与高性能专线订阅的结合</h2>
-<p>一套高效的同步架构离不开高质量的上游订阅源与精简准确的规则集。借助<a href="https://tizilab.net/" target="_blank">苹果生态科学上网客户端配置库</a>提供的模块化分流模板，用户可以轻松实现Apple服务直连加速、海外流媒体精准归属地匹配以及广告追踪域名的底层拦截，避免臃肿的陈旧规则拖慢Packet Tunnel内核扩展的内存占用。</p>
+<p>一套高效的同步架构离不开高质量的上游订阅源与精简准确的规则集。借助苹果生态科学上网客户端配置库提供的模块化分流模板，用户可以轻松实现Apple服务直连加速、海外流媒体精准归属地匹配以及广告追踪域名的底层拦截，避免臃肿的陈旧规则拖慢Packet Tunnel内核扩展的内存占用。</p>
 <h3>实战配置与日常运维优化建议</h3>
 <p>建议用户在日常使用中开启客户端内置的智能延迟测速与故障自动切换策略组，将核心生产力域名与超高清流媒体流量锁定在低延迟的IEPL内网专线节点上，从而获得全天候如一的丝滑响应。</p>
 <h2>5. SSID无线网络感知与智能场景自动切换</h2>
@@ -254,7 +254,7 @@ a:hover { color: var(--accent-crimson); }
         </div>
         <div style="display:flex;gap:12px;flex-wrap:wrap;">
           <a href="https://ww012.twilightaff.com/#/?code=A56DH1Af" rel="nofollow" target="_blank" class="btn-primary">立即免费试用 <svg class="ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="13 6 19 12 13 18"/></svg></a>
-          <a href="https://tizilab.net/paihang/" target="_blank" class="btn-secondary">2026最新梯子推荐</a>
+          
         </div>
       </div>
     </div>
